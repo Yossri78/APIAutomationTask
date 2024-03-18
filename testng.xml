@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite" >
+
+    <listeners>
+        <listener class-name="utilities.TestListeners"></listener>
+    </listeners>
+
+    <test name="MyTestSuite">
+        <classes>
+        <class name="tests.CreateUserTest"/>
+        <class name="tests.GetUserDetailsTest"/>
+        <class name="tests.UpdateUserDetailsTest"/>
+        <class name="tests.DeleteUserTest"/>
+        </classes>
+    </test>
+</suite>

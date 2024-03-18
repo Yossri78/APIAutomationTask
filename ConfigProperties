@@ -1,0 +1,6 @@
+baseURL= https://petstore.swagger.io/
+createUserEndPoint= v2/user
+getUserDetailsEndPoint= v2/user/
+updateUserDetailsEndPoint= v2/user/
+deleteUserDetailsEndPoint= v2/user/
+reportPath= resources//reports//
